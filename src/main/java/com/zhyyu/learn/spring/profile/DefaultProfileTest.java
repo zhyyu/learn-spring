@@ -18,7 +18,7 @@ environment.getDefaultProfiles1 - myDefaultProfile
  * @author zhyyu2016
  *
  */
-@Component
+//@Component
 public class DefaultProfileTest {
 	
 	@Autowired

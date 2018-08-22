@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
  * @author zhyyu2016
  *
  */
-@Component
+//@Component
 public class ApplicationEventTest {
 
 	@EventListener(ContextRefreshedEvent.class)
