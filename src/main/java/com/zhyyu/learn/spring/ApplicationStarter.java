@@ -14,6 +14,7 @@ public class ApplicationStarter {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
 		String threadName = Thread.currentThread().getName();
 		System.out.println("start appliation context, thread: " + threadName);
+		while (true);
 	}
 	
 }
