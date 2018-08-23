@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @author zhyyu2016
  *
  */
-@Profile("myProfile")
+@Profile({"myProfile", "myProfile1"})
 @Component
 public class AtProfileTest {
 
