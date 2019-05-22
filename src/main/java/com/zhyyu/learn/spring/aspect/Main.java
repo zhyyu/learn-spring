@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         TargetObject targetObject = (TargetObject) applicationContext.getBean("targetObject");
-        targetObject.method1();
+        targetObject.method1("str1", "str2");
     }
 
 }

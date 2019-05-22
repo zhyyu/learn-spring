@@ -9,7 +9,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class TargetObject {
 
-    public void method1() {
+    @JoinpointAnnotation(attr1 = "attr1111", attr2 = "attr2222")
+    public void method1(String args1, @ArgAnnotation String args2) {
+        System.out.println("args1: " + args1);
+        System.out.println("args2: " + args2);
         System.out.println("method invoked");
     }
 
