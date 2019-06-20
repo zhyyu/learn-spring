@@ -43,7 +43,20 @@
           <artifactId>mysql-connector-java</artifactId>
           <version>5.1.26</version>
       </dependency>
-  
+
+      <!-- quartz -->
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context-support</artifactId>
+          <version>4.3.8.RELEASE</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.quartz-scheduler</groupId>
+          <artifactId>quartz</artifactId>
+          <version>2.2.1</version>
+      </dependency>
+
     <!-- commons -->
     <dependency>
         <groupId>org.apache.commons</groupId>
