@@ -1,6 +1,13 @@
 package com.zhyyu.learn.spring.ioc.configuration;
 
+import javax.annotation.PostConstruct;
+
 public class ConfigurationConfigBean {
+
+    @PostConstruct
+    public void init() {
+        System.out.println("ConfigurationConfigBean inited");
+    }
 
     private int i = 0;
 
